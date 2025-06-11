@@ -1,4 +1,5 @@
 # ArgoCD
+The following instruction is specific for VDI EUCGroup01126. Follow this [Getting Started](https://github.com/kent-cheung-usps/ArgoCD/wiki/03-Getting-Started) to install Argo CD.
 ### Jump Started
 1. Launch the Docker engine
 2. Start Minikube cluster
