@@ -31,9 +31,6 @@
      ```
      kubectl port-forward svc/usps-api-sample 8080:80 -n default
      ```
-   - Navigate to
-     ```
-     http://localhost:8080
-     ```
+   - Navigate to: http://localhost:8080
      
    
