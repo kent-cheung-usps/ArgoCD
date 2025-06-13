@@ -31,9 +31,13 @@ Follow this [Getting Started](https://github.com/kent-cheung-usps/ArgoCD/wiki/03
    `argocd app get usps-api-sample`
 
 9. Launch the usps_api_sample App
-   - Port forward to access the UI app
+   - Port forward to access the UI app locally
      ```
      kubectl port-forward svc/usps-api-sample 8080:80 -n default
+     ```
+   - Allow access from other machine **(Not Recommanded due to security concern.)**
+     ```
+     kubectl port-forward --address 0.0.0.0 svc/usps-api-sample 8080:80 -n default
      ```
    - Navigate to: http://localhost:8080
      
